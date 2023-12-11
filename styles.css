@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: SF UI Display, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 24px;
+  color: #fff;
+  background-color: #0f0f0f;
+}
+h1,
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+
+  @media (max-width: 1130px) {
+    font-size: 25px;
+  }
+}
+h2 {
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-right: 64px;
+  padding-left: 64px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-wrapper {
+  background-color: #1d1d1d;
+}
+.header {
+  display: flex;
+  color: #ff2c91;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 14px;
+  padding-bottom: 13px;
+}
+
+.heading {
+  margin-top: 31px;
+  margin-bottom: 29px;
+}
+
+.playlist {
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  background-color: #1d1d1d;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.playlist__title {
+  margin-bottom: 30px;
+}
+
+.playlist__vidios {
+  display: flex;
+  gap: 24px;
+}
+
+.playlist__vidio {
+  max-width: 352px;
+  background-color: #1d1d1d;
+}
+
+.video {
+  margin-bottom: 6px;
+}
+.vidio-title {
+  margin-bottom: 12px;
+}
+.vidio-channel {
+  display: block;
+  color: #969696;
+  margin-bottom: 12px;
+}
+.vidio-release-date {
+  color: #969696;
+}
