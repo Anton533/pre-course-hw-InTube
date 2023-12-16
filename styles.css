@@ -35,6 +35,11 @@ h2 {
   margin: 0 auto;
   padding-right: 64px;
   padding-left: 64px;
+
+  @media (max-width: 870px) {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
 }
 
 .main {
@@ -73,7 +78,11 @@ h2 {
 
 .playlist__vidios {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
+  @media (max-width: 1280px) {
+    justify-content: center;
+  }
 }
 
 .playlist__vidio {
@@ -82,6 +91,8 @@ h2 {
 }
 
 .video {
+  width: 100%;
+  min-height: 252px;
   margin-bottom: 6px;
 }
 .vidio-title {
