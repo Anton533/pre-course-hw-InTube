@@ -9,7 +9,6 @@ export function renderPlaylists(data) {
 
   playlistTitle.innerText = data.title;
   playlist.append(playlistTitle, playlistVidios);
-
   data.vidios.forEach((video) => {
     renderVideo(video, playlistVidios);
   });

@@ -73,25 +73,36 @@ h2 {
 }
 
 .playlist__title {
-  margin-bottom: 30px;
+  @media (max-width: 1080px) {
+    margin-bottom: 20px;
+  }
+  @media (max-width: 500px) {
+    margin-bottom: 0;
+  }
 }
 
 .playlist__vidios {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  @media (max-width: 1280px) {
-    justify-content: center;
+
+  @media (max-width: 1080px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 }
 
 .playlist__vidio {
-  max-width: 352px;
   background-color: #1d1d1d;
 }
 
 .video {
   width: 100%;
+  height: 60%;
   min-height: 252px;
   margin-bottom: 6px;
 }

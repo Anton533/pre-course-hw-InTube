@@ -4,7 +4,7 @@ export const playlists = [
     vidios: [
       {
         fileUrl: "./src/videos/java-script-2.mp4",
-        poster: "./src/img/java-script-2.png",
+        poster: "./src/img/java-script-2.jpeg",
         title:
           "JavaScript - Way of the Samurai, Browser, first program, foreign language learning simulator",
         channel: "It-Kamasutra",
@@ -13,7 +13,7 @@ export const playlists = [
       },
       {
         fileUrl: "./src/videos/java-script-3.mp4",
-        poster: "./src/img/java-script-3.png",
+        poster: "./src/img/java-script-3.jpeg",
         title:
           "JavaScript - The Way of the Samurai, installing VS code, code editor",
         channel: "It-Kamasutra",
@@ -22,19 +22,11 @@ export const playlists = [
       },
       {
         fileUrl: "./src/videos/java-script-3.mp4",
-        poster: "./src/img/back-end.png",
+        poster: "./src/img/back-end.jpeg",
         title:
-          "JavaScript - The Way of the Samurai, installing VS code, code editor",
+          "Reboot - express + typescript + nodemon / Back-end - The Samurai Way",
         channel: "It-Kamasutra",
         releaseDate: "2 week ago",
-        isLive: false,
-      },
-      {
-        fileUrl: "./src/videos/grid.mp4",
-        poster: "./src/img/grid.jpeg",
-        title: "Learn CSS Grid the easy way",
-        channel: "Kevin Powell",
-        releaseDate: "2 года назад",
         isLive: false,
       },
     ],
@@ -53,7 +45,7 @@ export const playlists = [
       },
       {
         fileUrl: "./src/videos/java-script-ninja.mp4",
-        poster: "",
+        poster: "./src/img/java-script-ninja.jpeg",
         title: "Учись реальности!",
         channel: "JavaScript.Ninja",
         releaseDate: "13 дней назад",
